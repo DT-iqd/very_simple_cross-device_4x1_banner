@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>cross-device responsive 4:1</title>
+<meta name="viewport" content="width=device-width">
+<style>
+	html {
+		height: 100%;
+	}
+	body {
+		margin: 0;
+		height: 100%;
+	}
+</style>
+</head>
+<body>
+<a href="https://www.iqm.de">
+<picture>
+ <source srcset="./img/320x80.jpg" media="(max-width: 320px)">
+ <source srcset="./img/450x113.jpg" media="(max-width: 450px)">
+ <source srcset="./img/600x150.jpg" media="(max-width: 600px)">
+ <source srcset="./img/900x225.jpg" media="(max-width: 900px)">
+ <source srcset="./img/1200x300.jpg" media="(max-width: 1200px)">
+ <source srcset="./img/1800x450.jpg">
+ <img src="./img/1800x450.jpg"  alt="image" width="100%">
+</picture>
+</a>
+</body>
+</html>
